@@ -3,7 +3,7 @@
 # Spend some time changing the variables and running the file to see how the story changes.
 
 
-door_choice = 1
+door_choice = 2
 bear_clothing = ""
 bear_choice = 1
 
@@ -35,9 +35,24 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# Line 12 is a If statement where the door_choice is the varibale with 1 or 2 being the possible options. If the door_choice value is one then the result is the bear_clothing "hat" scenario; if the door_choice value is 2 then the else statement defers fo the "scarf" scenario
+# the entire scenario is dependent on the door choice and differnt outcomes are given based on this door_choice.
+
 # 2. What variable has a new value assigned to it after the first if statement executes?
+#bear_clothing
+
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+#bear_clothing = "scarf" - the highest avaiable value for the variable door_choice, 2.
+
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+#the varibale bear_choice has a value of 1, 2, or 3. If the value is 1, the code with read the line with the bear_clothing (hat or scarf) added into the message. if the vale if bear_choice is 2, a different message is displayed, also withe the bear_clothing variable added into it.
+#Line 29 states that if the varibale for bear_choice is 3 there is not bear_clothing variable avaiable and the message is printed as written. Line 31 reads, if none of the above statements are true, print "You stay with the bear and become it's best friend!" (no dependent bear_clothing varibales exist in this scenario)
+
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+#"You run as fast as you can into the next room. It's full of snakes!"
+
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+#you would walk in to see the bear trying on the hat and tell you would tel the bear it is too small and it starts to cry
+
 # 7. What is your favorite ending?
+#Offer my bear_clothing and shows me a secret passage out!
